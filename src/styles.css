@@ -1,0 +1,54 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+
+.users-list {
+  max-width: 800px;
+  margin: auto;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.user-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.edit-user-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.edit-user-form input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ddd;
+}
